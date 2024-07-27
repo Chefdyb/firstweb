@@ -1,0 +1,92 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+header {
+  background: #333;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.hero-section {
+  height: 100vh;
+  background: url('images/profile.jpg') center center/cover no-repeat;
+  position: relative;
+  color: #fff;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  z-index: 1;
+}
+
+.about-section, .skills-section, .experience-section, .portfolio-section, .contact-section {
+  padding: 60px 0;
+}
+
+.skills-section {
+  background: #f8f9fa;
+}
+
+.skills-section .card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-section {
+  background: #f8f9fa;
+}
+
+.portfolio-section .carousel {
+  background: #333;
+}
+
+.contact-section {
+  background: #f8f9fa;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+}
+
+footer p {
+  margin: 0;
+}
